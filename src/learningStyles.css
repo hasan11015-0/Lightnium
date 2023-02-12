@@ -1,0 +1,56 @@
+
+
+
+.shoplist{
+  
+  margin: 2% 2.5% 2% 2% ;
+  display: flex;
+  gap: 20px;
+}
+
+.shopitem{
+  
+  border-style: solid;
+  border-color: rgba(0,0,0,0.5);
+  
+}
+
+@media screen and (min-width: 768px) {
+    .shoplist {
+      grid-template-columns: repeat(4, 1fr);
+      /* align-items: start; */
+    }
+  }
+
+  .shopitem h3 {
+    font-size: 20px;
+    font-weight:bold;
+    color:rgb(23, 20, 20);
+    padding-left: 100px;
+  }
+  .shopitem h6 {
+    
+    padding-left: 100px;
+    margin-top: 0.25rem;
+    font-size: 20px;
+    font-weight:bold;
+    color:rgb(23, 20, 20);
+  }
+  .shopitem p {
+    margin-top: 0.5rem;
+  }
+
+  .image{
+    
+    height: 50px;
+    width: 50px;
+  
+  }
+
+  .b2{
+    background-color: rgba(0,0,0,0.2);
+    
+  }
+
+    
+

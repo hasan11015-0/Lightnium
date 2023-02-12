@@ -1,0 +1,92 @@
+.full_part{
+    display: flex;
+    padding: 30px 10px 30px 0px;
+    margin: auto;
+    width: 94vw;
+    height: 75vh;
+    gap: 5px;
+    flex-wrap: wrap;
+  
+}
+
+.part1{
+
+    display: inline-block;
+    gap:10px;
+    width: 46vw;
+    height: 70vh;
+
+}
+
+.part2{
+    display: block;
+    margin-top: 10px;  ;
+    margin-bottom: 10px;
+    width: 46vw;
+    height:70vh;
+    background-image: url('./Assets/Group17.png');
+    border-width:10px ;
+   
+    
+    
+    
+}
+
+.part11{
+    width: 45vw;
+    height: 35vh;
+    
+    background-image: url('./Assets/Group19.png');
+    
+}
+
+.part12{
+
+       width: 45vw;
+       height: 35vh;
+       display: flex; 
+       padding-top: 5px;
+       background-image: url();
+       gap: 10px;
+
+}
+
+.part121{
+    background-image: url('./Assets/Group20.png');
+    width: 22.5vw;
+    height: 35vh;
+}
+
+.part122{
+    
+    background-image: url('./Assets/Group21.png');
+    width: 22.5vw;
+    height: 35vh;
+}
+
+
+
+.button1{
+    height: 18px;
+    width: 64px;
+    background-color:rgba(255,255,255,0.8);
+  border-color:rgba(255,255,255,0.1) ;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+    
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+button1{
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+
+
